@@ -17,5 +17,4 @@ The implementation uses **Google Gemini API** instead of OpenAI, inspired by Sta
 
 ---
 
-## 🛠 Tech Stack
 

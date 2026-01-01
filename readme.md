@@ -17,4 +17,16 @@ The implementation uses **Google Gemini API** instead of OpenAI, inspired by Sta
 
 ---
 
+## 📚 Lecture 02 – Gemini Chat Application (CLI Based)
 
+### 🔧 What You'll Learn in This Lecture:
+
+✅ Setting up **Google Gemini client** using Node.js  
+✅ Loading environment variables securely with **dotenv**  
+✅ Understanding **Gemini models** (`gemini-flash-latest`)  
+✅ Using **system instructions** to control AI behaviour  
+✅ Creating a **chat-based conversation** using Gemini  
+✅ Taking real-time user input from terminal  
+✅ Handling errors and graceful exit in a GenAI app
+
+---

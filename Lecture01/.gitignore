@@ -1,8 +1,3 @@
----
-## 📄 .gitignore (Node.js + TypeScript + GenAI Project)
-
-Ye **standard + best practice** wala `.gitignore` hai 👇
-
 ```gitignore
 # dependencies
 node_modules/

@@ -30,3 +30,62 @@ The implementation uses **Google Gemini API** instead of OpenAI, inspired by Sta
 ✅ Handling errors and graceful exit in a GenAI app
 
 ---
+
+## 📚 Lecture 03 – Tool Calling with Gemini (Weather Fetch App)
+
+### 🔧 What You'll Learn in This Lecture:
+
+✅ Understanding **Tool Calling (Function Calling)** in Generative AI  
+✅ How Gemini decides **when to call a tool** vs when to respond normally  
+✅ Defining **custom tools / functions** for Gemini  
+✅ Implementing a **Weather Fetch Tool**  
+✅ Passing structured parameters (e.g. city name) from AI to function  
+✅ Executing real-world logic (API or mock data) from tool calls  
+✅ Returning tool results back to Gemini  
+✅ Complete flow: **User → AI → Tool → AI → Final Response**
+
+### 🛠️ What We Built:
+
+- A CLI-based AI application where:
+  - User asks questions like _"What is the weather in Delhi?"_
+  - Gemini automatically triggers a **weather tool**
+  - The tool fetches weather data
+  - Gemini formats the data into a **human-friendly answer**
+
+This lecture explains how **LLMs interact with external systems**, which is a **core concept for production-level GenAI apps**.
+
+---
+
+## 📚 Lecture 04 – Multimodal AI with DALL·E & Whisper
+
+### 🔧 What You'll Learn in This Lecture:
+
+✅ Understanding **Multimodal AI** (Text, Image, Audio)  
+✅ Using **DALL·E** for **Text-to-Image generation**  
+✅ Using **Whisper** for **Text-to-Speech (Voice generation)**  
+✅ Handling **binary outputs** (images & audio files) in Node.js  
+✅ Saving generated images and audio locally  
+✅ Managing TypeScript types and error handling  
+✅ Building real-world GenAI utilities using Node.js
+
+### 🛠️ What We Built:
+
+#### 🎨 Text to Image (DALL·E)
+
+- User provides a text prompt
+- AI generates an image based on the prompt
+- Image is saved locally (e.g. `.png` file)
+
+#### 🔊 Text to Voice (Whisper / TTS)
+
+- User provides text input
+- AI converts text into **natural-sounding speech**
+- Audio file is generated and stored (e.g. `.mp3` / `.wav`)
+
+This lecture demonstrates how GenAI goes **beyond chat**, enabling:
+
+- Image generation
+- Voice generation
+- Creative & production-ready AI workflows
+
+---

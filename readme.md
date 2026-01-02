@@ -122,3 +122,35 @@ This lecture demonstrates how GenAI goes **beyond chat**, enabling:
   - Faster but less normalized than cosine similarity
 
 ---
+
+## 📚 Lecture 06 – Vector Databases with ChromaDB (Semantic Search)
+
+### 🔧 What You'll Learn in This Lecture:
+
+✅ What is a **Vector Database** and why it is needed  
+✅ How vector databases store and search embeddings  
+✅ Introduction to **ChromaDB**  
+✅ Creating and managing **collections** in ChromaDB  
+✅ Storing text data as **embeddings**  
+✅ Using metadata (role, ids) with vectors  
+✅ Performing **semantic similarity search**  
+✅ Understanding how vector DBs power **RAG systems**
+
+### 🧠 Key Concepts Explained:
+
+- **Vector Database**
+
+  - A specialized database designed to store **vector embeddings**
+  - Enables fast **similarity search** instead of exact matching
+  - Used in semantic search, chat history memory, and RAG pipelines
+
+- **ChromaDB**
+
+  - Lightweight, open-source vector database
+  - Easy to use with Node.js
+  - Ideal for learning and local GenAI projects
+
+- **Semantic Search**
+  - Search is based on **meaning**, not keywords
+  - User query is converted into an embedding
+  - Closest vectors are returned using similarity metrics

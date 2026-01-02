@@ -1,0 +1,19 @@
+{
+  "name": "lecture07",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "dev": "node dist/index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^17.2.3",
+    "openai": "^6.15.0"
+  },
+  "devDependencies": {
+    "typescript": "^5.9.3"
+  },
+  "description": ""
+}

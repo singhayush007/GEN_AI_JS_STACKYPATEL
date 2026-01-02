@@ -1,0 +1,23 @@
+{
+  "name": "lecture07",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "dev": "node dist/index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "@types/node": "^25.0.3",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.9.3"
+  },
+  "dependencies": {
+    "@langchain/community": "^0.3.29",
+    "@langchain/core": "^0.3.80",
+    "@langchain/openai": "^0.3.17",
+    "langchain": "^0.3.29"
+  }
+}

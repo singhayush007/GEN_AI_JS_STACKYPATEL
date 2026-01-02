@@ -1,7 +1,7 @@
-# Generative AI with Node.js, LangChain, TypeScript & Google Gemini
+# Generative AI with Node.js, LangChain, TypeScript & Open AI & Google Gemini
 
 This repository contains my learning and practice code while studying **Generative AI with Node.js and TypeScript**.
-The implementation uses **Google Gemini API** instead of OpenAI, inspired by Stacky Patel's Generative AI course.
+The implementation uses **Google Gemini API** **OpenAI**, inspired by Stacky Patel Generative AI course.
 
 ---
 
@@ -154,3 +154,105 @@ This lecture demonstrates how GenAI goes **beyond chat**, enabling:
   - Search is based on **meaning**, not keywords
   - User query is converted into an embedding
   - Closest vectors are returned using similarity metrics
+
+## 📚 Lecture 07 – LangChain Fundamentals (Prompts, Batching & Chunking)
+
+### 🔧 What You'll Learn in This Lecture:
+
+✅ Introduction to **LangChain** and why it is used  
+✅ Setting up **ChatOpenAI** model with LangChain  
+✅ Using **PromptTemplate** for dynamic prompts  
+✅ Single LLM calls using LangChain  
+✅ Batch processing multiple prompts efficiently  
+✅ Handling long text using **Text Chunking**  
+✅ Understanding **RecursiveCharacterTextSplitter**  
+✅ Building structured and reusable LLM workflows
+
+### 🧠 Key Concepts Explained:
+
+- **LangChain**
+
+  - A framework to build structured, modular GenAI applications
+  - Simplifies prompt management, chaining, and LLM orchestration
+
+- **PromptTemplate**
+
+  - Allows dynamic prompt creation using variables
+  - Helps maintain consistency and reusability in prompts
+
+- **Batch Calls**
+
+  - Send multiple prompts in one call
+  - Improves performance and reduces overhead
+
+- **Text Chunking**
+  - Large text is split into smaller overlapping chunks
+  - Prevents context length issues in LLMs
+
+### 🛠️ What We Built:
+
+- Created a **ChatOpenAI** model using LangChain
+- Built reusable prompts using **PromptTemplate**
+- Executed:
+  - **Single LLM calls**
+  - **Batch LLM calls**
+- Processed long text using **RecursiveCharacterTextSplitter**
+- Sent chunked text to the LLM and generated explanations per chunk
+
+This lecture focuses on **prompt engineering + scalability**, forming the base for advanced GenAI systems.
+
+---
+
+## 📚 Lecture 08 – Retrieval Augmented Generation (RAG) with LangChain
+
+### 🔧 What You'll Learn in This Lecture:
+
+✅ What is **Retrieval Augmented Generation (RAG)**  
+✅ Why RAG is needed over plain LLM responses  
+✅ Loading and processing external documents  
+✅ Chunking documents for better retrieval  
+✅ Creating **Embeddings** for documents  
+✅ Storing embeddings in **Chroma Vector Database**  
+✅ Performing **Similarity Search** using retrievers  
+✅ Combining retrieved context with LLM responses
+
+### 🧠 Key Concepts Explained:
+
+- **RAG (Retrieval Augmented Generation)**
+
+  - Enhances LLMs with external knowledge
+  - Prevents hallucinations
+  - Answers are grounded in real documents
+
+- **Retriever**
+
+  - Fetches the most relevant document chunks
+  - Uses vector similarity search
+
+- **Context-Aware Prompting**
+  - LLM is forced to answer using only retrieved context
+  - If data is missing, model responds with `"I don't know"`
+
+### 🛠️ What We Built:
+
+- Loaded a text document from local storage
+- Split the document into overlapping chunks
+- Generated embeddings using OpenAI Embeddings
+- Stored vectors in **ChromaDB**
+- Retrieved top-K relevant chunks for a query
+- Passed retrieved context into a **RAG Prompt Template**
+- Generated accurate, grounded answers using an LLM
+
+### 🔍 Example Queries:
+
+- _"What is RAG?"_
+- _"What is LangChain used for?"_
+- _"Who invented Java?"_ (Correctly returns **"I don't know"**)
+
+This lecture demonstrates a **production-grade GenAI pattern**, widely used in:
+
+- AI chatbots
+- Knowledge assistants
+- Document Q&A systems
+
+---

@@ -1,0 +1,8 @@
+Node.js is a JavaScript runtime built on Chrome's V8 engine.
+It is commonly used to build backend servers and APIs.
+
+LangChain is a framework that helps developers build applications using LLMs.
+It provides tools for prompt templates, chains, embeddings, and vector stores.
+
+RAG stands for Retrieval Augmented Generation.
+It allows LLMs to answer questions using external data instead of only training data.
